@@ -7,7 +7,7 @@ sheet = book.sheet_by_name("out_")
 
 connection = pymysql.connect(host='localhost',
                      user='root',
-                     password='H1abc7qlazx',
+                     password='Pass_to_MySQLDB',
                      database='new_data')
 query = """INSERT INTO alldata (sku, store_view_code, attribute_set_code, product_type, categories, product_websites, name, description,
                              short_description, weight, product_online, tax_class_name, visibility, price, special_price,
