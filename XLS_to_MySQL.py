@@ -1,7 +1,7 @@
 # Import the xlrd module
 import xlrd
 import pymysql
-file = r'D:\magma\main_data\Excell_all.xlsx'
+file = r'path_to_file\Excell_all.xlsx'
 book = xlrd.open_workbook(file)
 sheet = book.sheet_by_name("out_")
 
